@@ -1,0 +1,106 @@
+body {
+  background-color: #D6D6D6;
+  font-family: 'helvetica', 'Lucida Sans', 'calibri', 'sans-serif';
+}
+
+.container {
+  width: 1080px;
+  background: white;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header, footer {
+  background: #404040;
+  color: white; 
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  border-bottom: 6px solid rgb(167, 167, 167); 
+
+}
+
+h2, h3, h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #404040;
+  border-left: 2px solid lightgrey;
+  padding-left: 18px;
+  
+}
+a:link {
+  color:black;
+}
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color:rgb(32, 131, 197)  
+}
+
+a:active {
+  color:darkred;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  text-color: rgb(147, 39, 167);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ul li {
+  background: lightgrey;
+}
+
+ul li:nth-child(even) {
+  background: white;
+}
+
+nav ul li,
+nav ul li:nth-child(odd) {
+  background: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a,
+nav ul li a:visited {
+  text-decoration: none;
+  background: grey;
+  color: white;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  border-style: solid; 2px; white;
+}
+
+nav ul li a:hover {
+  background:rgb(61, 101, 128);
+}
+
+nav ul li.current a:link,
+nav ul li.current a:visited {
+  opacity: 0.5;
+}
+
+#my-image {
+  box-shadow: 0 6px 8px grey ;
+}
